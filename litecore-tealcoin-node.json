@@ -1,0 +1,18 @@
+{
+  "network": "testnet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "insight-tealcoin-api",
+    "insight-tealcoin-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "./data",
+        "exec": "./node_modules/.bin/tealcoind"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "tealcoin-explorer-fullnode",
+  "version": "1.0.0",
+  "description": "A full Tealcoin node build with Bitcore",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tealcoin-project/tealcoin-explorer-fullnode.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/litecore-tealcoin-node/bin/litecore-tealcoin-node start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BitPay",
+  "keywords": [
+    "tealcoin",
+	"litecore",
+    "bitcore",
+	"explorer",
+    "insight"
+  ],
+  "bugs": {
+    "url": "https://github.com/tealcoin-project/tealcoin-explorer-fullnode/issues"
+  },
+  "maintainers": [
+    {
+      "name": "qxchan",
+      "email": "tealcoin.project@gmail.com"
+    }
+
+  ],
+  "dependencies": {
+    "insight-tealcoin-api": "^0.4.4",
+    "insight-tealcoin-ui": "^0.4.6",
+    "litecore-tealcoin-lib": "^v0.13.22",
+    "litecore-tealcoin-node": "^3.1.11"
+  }
+}
