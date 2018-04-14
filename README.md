@@ -28,7 +28,7 @@ brew install zeromq
 Bitcore comes with a command line utility for creating and managing your full node. To get started, run these commands, and you'll then have the bitcore command in your path:
 
 ```
-git clone https://github.com/tealcoin-project/tealcoin-explorer-fullnode.git && tealcoin-explorer-fullnode
+git clone https://github.com/tealcoin-project/tealcoin-explorer-fullnode.git && cd tealcoin-explorer-fullnode
 npm install
 npm start
 ```
@@ -38,9 +38,9 @@ npm start
 Your node can run on "livenet" or "testnet". If you wish to configure the network, you can do so by opening the  litecore-tealcoin-node.json configuration file with your favorite text editor (vi is used here):
 
 ```
-cd tealcoin-explorer-fullnode
 vi litecore-tealcoin-node.json
 ```
+
 Then change the network value to "testnet" or "livenet". Here is an example configuration file:
 
 ```
