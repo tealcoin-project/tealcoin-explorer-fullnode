@@ -64,7 +64,7 @@ Then change the network value to "testnet" or "livenet". Here is an example conf
 }
 ```
 
-## Test open your Explorer in browser
+## Test to open in your browser
 
 Go to the local URL (default):
 
