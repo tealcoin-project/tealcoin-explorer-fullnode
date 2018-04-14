@@ -28,7 +28,7 @@ brew install zeromq
 Bitcore comes with a command line utility for creating and managing your full node. To get started, run these commands, and you'll then have the bitcore command in your path:
 
 ```
-git clone https://github.com/tealcoin-project/tealcoin-explorer-fullnode.git
+git clone https://github.com/tealcoin-project/tealcoin-explorer-fullnode.git && tealcoin-explorer-fullnode
 npm install
 npm start
 ```
